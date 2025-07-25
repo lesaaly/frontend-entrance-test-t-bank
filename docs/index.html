@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Резюме - Front-end разработчик</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/assets/index-CnLWXrYt.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-90K97tMf.css">
+  </head>
+  <body>
+    <div id="app">
+      <header class="header">
+        <h1 class="header-title">Резюме</h1>
+        <button id="downloadBtn" class="download-btn">
+          <span class="download-icon">📄</span>
+          Скачать PDF
+        </button>
+      </header>
+      
+      <main class="resume-container">
+        <section class="resume-section personal-info">
+          <div class="profile-header">
+            <div class="profile-avatar">
+              <div class="avatar-placeholder">👤</div>
+            </div>
+            <div class="profile-details">
+              <h2 class="editable" data-field="name">Фамилия Имя</h2>
+              <h3 class="editable" data-field="position">Frontend-разработчик</h3>
+              <p class="editable" data-field="summary">Разработчик с 1+ годом опыта создания современных веб-приложений. Специализируюсь на JavaScript, TypeScript, React, Vue.js и современных CSS технологиях.</p>
+            </div>
+          </div>
+          
+          <div class="contact-info">
+            <div class="contact-item">
+              <span class="contact-icon">📧</span>
+              <span class="editable" data-field="email">surname.name@email.com</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📱</span>
+              <span class="editable" data-field="phone">+7 (999) 999-99-99</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <span class="editable" data-field="location">Москва, Россия</span>
+            </div>
+          </div>
+        </section>
+
+        <div class="resume-content">
+          <div class="resume-main">
+            <section class="resume-section">
+              <h3 class="section-title">Опыт работы</h3>
+              
+              <div class="experience-item">
+                <div class="experience-header">
+                  <h4 class="editable" data-field="job-title-1">Frontend-разработчик</h4>
+                  <span class="experience-period editable" data-field="job-period-1">05.2024 - н.в.</span>
+                </div>
+                <div class="company-name editable" data-field="company-1">###</div>
+                <ul class="achievements-list">
+                  <li class="editable" data-field="achievement-1-1">Участие в разработке корпоративной ERP-системы</li>
+                  <li class="editable" data-field="achievement-1-2">Разработка UI-компонентов с соблюдением дизайн-системы</li>
+                  <li class="editable" data-field="achievement-1-3">Внедрение фичи по оповещение пользователей системы о предстоящем дне рождении коллеги</li>
+                  <li class="editable" data-field="achievement-1-3">Отображение, создание, редактирование и удаление данных из MongoDB через API</li>
+                </ul>
+              </div>
+            </section>
+
+            <section class="resume-section">
+              <h3 class="section-title">Образование</h3>
+              <div class="education-item">
+                <div class="education-header">
+                  <h4 class="editable" data-field="degree">Бакалавр бизнес-информатики</h4>
+                  <span class="education-period editable" data-field="education-period">2021 - 2025</span>
+                </div>
+                <div class="institution-name editable" data-field="university">Финансовый университет при Правительстве РФ</div>
+              </div>
+            </section>
+          </div>
+
+          <aside class="resume-sidebar">
+            <section class="resume-section">
+              <h3 class="section-title">Навыки</h3>
+              <div class="skills-category">
+                <h4>Языки программирования</h4>
+                <div class="skills-list">
+                  <span class="skill-item editable" data-field="skill-1">JavaScript (ES6+)</span>
+                  <span class="skill-item editable" data-field="skill-2">TypeScript</span>
+                  <span class="skill-item editable" data-field="skill-3">HTML5</span>
+                  <span class="skill-item editable" data-field="skill-4">CSS3</span>
+                  <span class="skill-item editable" data-field="skill-5">Python</span>
+                  <span class="skill-item editable" data-field="skill-6">SQL</span>
+                </div>
+              </div>
+              
+              <div class="skills-category">
+                <h4>Фреймворки и библиотеки</h4>
+                <div class="skills-list">
+                  <span class="skill-item editable" data-field="skill-7">React</span>
+                  <span class="skill-item editable" data-field="skill-8">Vue.js</span>
+                  <span class="skill-item editable" data-field="skill-9">Node.js</span>
+                  <span class="skill-item editable" data-field="skill-10">Nuxt.js</span>
+                  <span class="skill-item editable" data-field="skill-11">Nest.js</span>
+                  <span class="skill-item editable" data-field="skill-12">Feathers.js</span>
+                  <span class="skill-item editable" data-field="skill-13">Quasar</span>
+                </div>
+              </div>
+              
+              <div class="skills-category">
+                <h4>Инструменты</h4>
+                <div class="skills-list">
+                  <span class="skill-item editable" data-field="skill-14">Git</span>
+                  <span class="skill-item editable" data-field="skill-15">Vite</span>
+                  <span class="skill-item editable" data-field="skill-16">Docker</span>
+                  <span class="skill-item editable" data-field="skill-17">Taiga</span>
+                  <span class="skill-item editable" data-field="skill-18">Figma</span>
+                </div>
+              </div>
+            </section>
+
+            <section class="resume-section">
+              <h3 class="section-title">Языки</h3>
+              <div class="languages-list">
+                <div class="language-item">
+                  <span class="language-name editable" data-field="lang-1">Русский</span>
+                  <span class="language-level editable" data-field="lang-level-1">Родной</span>
+                </div>
+                <div class="language-item">
+                  <span class="language-name editable" data-field="lang-2">Английский</span>
+                  <span class="language-level editable" data-field="lang-level-2">B1</span>
+                </div>
+              </div>
+            </section>
+
+            <section class="resume-section">
+              <h3 class="section-title">Проекты</h3>
+              <div class="projects-list">
+                <div class="project-item">
+                  <h4 class="editable" data-field="project-1-name">E-commerce платформа</h4>
+                  <p class="editable" data-field="project-1-desc">Интернет-магазин кроссовок с корзиной, избранным и списком товаров</p>
+                </div>
+                <div class="project-item">
+                  <h4 class="editable" data-field="project-2-name">Телеграм-бот уведомлений из Taiga</h4>
+                  <p class="editable" data-field="project-2-desc">Оповещение о новых задачах в телеграме из Taiga</p>
+                </div>
+              </div>
+            </section>
+          </aside>
+        </div>
+      </main>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  </body>
+</html>
